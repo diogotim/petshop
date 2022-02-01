@@ -1,11 +1,15 @@
 # Pets Frontend 🐕
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9264ce85-dde8-496e-b239-e174685dccfe/deploy-status)](https://app.netlify.com/sites/diogotim-petshop/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/819283c7-cdc7-43aa-be14-7a551974d32f/deploy-status)](https://app.netlify.com/sites/diogotim-petshop/deploys)
 
 Live: [https://diogotim-petshop.netlify.app/](https://diogotim-petshop.netlify.app/)
 
 This project uses Nextjs and Typescript to create the frontend of a Petshop app.
 There is a home page, a product listing page (including navigation), and individual product pages.
+
+Initially, the app used the next/image component, but I changed it to next-optimized-images, that is why the client has some images that should have been served in the backend, as this way I do not need the backend live to create new builds into Netlify.
+
+Ideally, more development would be needed to better accommodate different screen sizes, this is not production-ready.
 
 ![Project screenshot](./images/screenshot.png)
 
