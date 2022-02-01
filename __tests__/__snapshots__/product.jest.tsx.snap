@@ -58,6 +58,7 @@ Object {
               class="pic"
             >
               <img
+                alt="product image"
                 class="imgContain imgFill"
                 src="/beautiful-scarf.jpg"
               />
@@ -212,6 +213,7 @@ Object {
             class="pic"
           >
             <img
+              alt="product image"
               class="imgContain imgFill"
               src="/beautiful-scarf.jpg"
             />
