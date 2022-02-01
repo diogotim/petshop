@@ -1,0 +1,64 @@
+@import '../../../../common/styles/mixins';
+
+.root {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+
+.testimonialProfile {
+    display: none;
+}
+
+@include md {
+    .testimonialProfile {
+        display: block;
+        position: relative;
+        width: 30%;
+        height: 40vh;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+}
+
+.speechWrapper {
+    flex: 1;
+}
+
+.clientName {
+    text-align: right;
+}
+
+.speech {
+    display: block;
+    font-family: var(--display-font);
+    position: relative;
+    padding: 2rem;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 8px;
+    background: var(--main);
+}
+
+
+@include md {
+    .speech {
+        margin-left: 2rem;
+    }
+
+    .speech::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        left: -4rem;
+        top: 4rem;
+        border-left: 2rem solid transparent;
+        border-top: 2rem solid var(--main);
+        border-right: 2rem solid var(--main);
+        border-bottom: 2rem solid transparent;
+        z-index: 9;
+    }
+}

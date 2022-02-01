@@ -1,0 +1,906 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders homepage unchanged 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <div
+          class="header container"
+        >
+          <a
+            class="logo"
+            href="/"
+          >
+            Pets
+          </a>
+          <nav
+            class="nav"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/"
+                >
+                  Adoption
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/products/1"
+                >
+                  Products
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div
+          class="home container"
+        >
+          <div>
+            <h1
+              class="heading"
+            >
+              Your pet 
+              <span
+                class="headingHighlight"
+              >
+                deserve
+              </span>
+               
+              the best
+            </h1>
+            <p>
+              Quisque laoreet pretium interdum. Nulla vitae dolor porta, pellentesque velit tincidunt, lacinia augue. Nulla eu ipsum eu quam maximus ullamcorper sit amet sollicitudin risus.
+            </p>
+            <a
+              class="servicesBtn"
+            >
+              Check our services
+            </a>
+          </div>
+          <div
+            class="rightSide"
+          >
+            <div
+              aria-hidden="true"
+              class="bgCircle"
+            />
+            <img
+              alt="Woman holding a dog"
+              class="imgContain imgFill"
+              src="test-file-stub"
+            />
+            <div
+              class="badgeCard shadow-md dog1"
+            >
+              <div>
+                <img
+                  class="imgCover imgFill"
+                  src="test-file-stub"
+                />
+              </div>
+              <span>
+                Charlie
+                 just got vaccinated.
+              </span>
+            </div>
+            <div
+              class="badgeCard shadow-lg catAdoption"
+            >
+              <div
+                class="innerWrapper"
+              >
+                <div
+                  class="pic"
+                >
+                  <img
+                    class="imgCover imgFill"
+                    src="test-file-stub"
+                  />
+                </div>
+                <div
+                  class="petName"
+                >
+                  Tobias
+                </div>
+                <a
+                  class="adoptBtn"
+                >
+                  Adopt Me!
+                </a>
+              </div>
+            </div>
+            <div
+              class="cat1 animalPortrait"
+            >
+              <img
+                class="imgCover imgFill"
+                src="test-file-stub"
+              />
+            </div>
+            <div
+              class="cat2 animalPortrait"
+            >
+              <img
+                class="imgCover imgFill"
+                src="test-file-stub"
+              />
+            </div>
+            <div
+              class="dog2 animalPortrait"
+            >
+              <img
+                class="imgCover imgFill"
+                src="test-file-stub"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="root"
+        >
+          <div
+            class="container content"
+          >
+            <img
+              alt="Purina Pro Plan"
+              height="120"
+              src="test-file-stub"
+              width="120"
+            />
+            <img
+              alt="Royal Canin"
+              height="120"
+              src="test-file-stub"
+              width="120"
+            />
+            <img
+              alt="West Paw"
+              height="120"
+              src="test-file-stub"
+              width="120"
+            />
+          </div>
+        </div>
+        <div
+          class="container"
+        >
+          <div
+            class="root"
+          >
+            <div
+              class="testimonialProfile shadow-md"
+            >
+              <img
+                class="imgCover imgFill"
+                src="test-file-stub"
+              />
+            </div>
+            <div
+              class="speechWrapper"
+            >
+              <p
+                class="speech shadow-md"
+              >
+                “Etiam facilisis ornare ligula, id feugiat ante laoreet eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed dui et mauris faucibus suscipit. Duis maximus purus id tincidunt dictum. Sed feugiat diam ut enim sollicitudin vestibulum.”
+              </p>
+              <p
+                class="clientName"
+              >
+                — Someone
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container root"
+        >
+          <h2>
+            Best sellers
+          </h2>
+          <div
+            class="root"
+          >
+            <a
+              class="prod"
+              href="/product/beautiful-scarf"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/beautiful-scarf.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                213.44
+              </p>
+              <p
+                class="prodName"
+              >
+                Beautiful Scarf
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/leash-toy"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/leash-toy.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                113.44
+              </p>
+              <p
+                class="prodName"
+              >
+                Leash Toy
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/orange-ball"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/orange-ball.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                100
+              </p>
+              <p
+                class="prodName"
+              >
+                Orange Ball
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/rope"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/rope.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                98
+              </p>
+              <p
+                class="prodName"
+              >
+                Rope
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/seahorse"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/seahorse.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                55.99
+              </p>
+              <p
+                class="prodName"
+              >
+                Seahorse
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="container"
+        >
+          <p
+            class="callUs"
+          >
+            Give us a call:
+             
+            <span
+              class="number"
+            >
+              +0 (000) 000-0000
+            </span>
+          </p>
+        </div>
+      </main>
+      <footer
+        class="root"
+      >
+        <div
+          class="footer container"
+        >
+          <a
+            class="logo"
+            href="/"
+          >
+            Pets
+          </a>
+          <nav
+            class="nav"
+          >
+            <ul>
+              <li>
+                <p>
+                  Quick links
+                </p>
+                <a
+                  href="/"
+                >
+                  Adoption
+                </a>
+                <a
+                  href="/"
+                >
+                  Services
+                </a>
+                <a
+                  href="/products/1"
+                >
+                  Products
+                </a>
+              </li>
+              <li>
+                <p>
+                  Follow us
+                </p>
+                <a
+                  href="#"
+                >
+                  Facebook
+                </a>
+                <a
+                  href="#"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="#"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <p>
+                  Contact
+                </p>
+                <a
+                  href="#"
+                >
+                  +0 (000) 000-0000
+                </a>
+                <a
+                  href="#"
+                >
+                  someone@example.com
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <div
+        class="header container"
+      >
+        <a
+          class="logo"
+          href="/"
+        >
+          Pets
+        </a>
+        <nav
+          class="nav"
+        >
+          <ul>
+            <li>
+              <a
+                href="/"
+              >
+                Adoption
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="/products/1"
+              >
+                Products
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div
+        class="home container"
+      >
+        <div>
+          <h1
+            class="heading"
+          >
+            Your pet 
+            <span
+              class="headingHighlight"
+            >
+              deserve
+            </span>
+             
+            the best
+          </h1>
+          <p>
+            Quisque laoreet pretium interdum. Nulla vitae dolor porta, pellentesque velit tincidunt, lacinia augue. Nulla eu ipsum eu quam maximus ullamcorper sit amet sollicitudin risus.
+          </p>
+          <a
+            class="servicesBtn"
+          >
+            Check our services
+          </a>
+        </div>
+        <div
+          class="rightSide"
+        >
+          <div
+            aria-hidden="true"
+            class="bgCircle"
+          />
+          <img
+            alt="Woman holding a dog"
+            class="imgContain imgFill"
+            src="test-file-stub"
+          />
+          <div
+            class="badgeCard shadow-md dog1"
+          >
+            <div>
+              <img
+                class="imgCover imgFill"
+                src="test-file-stub"
+              />
+            </div>
+            <span>
+              Charlie
+               just got vaccinated.
+            </span>
+          </div>
+          <div
+            class="badgeCard shadow-lg catAdoption"
+          >
+            <div
+              class="innerWrapper"
+            >
+              <div
+                class="pic"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="test-file-stub"
+                />
+              </div>
+              <div
+                class="petName"
+              >
+                Tobias
+              </div>
+              <a
+                class="adoptBtn"
+              >
+                Adopt Me!
+              </a>
+            </div>
+          </div>
+          <div
+            class="cat1 animalPortrait"
+          >
+            <img
+              class="imgCover imgFill"
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="cat2 animalPortrait"
+          >
+            <img
+              class="imgCover imgFill"
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="dog2 animalPortrait"
+          >
+            <img
+              class="imgCover imgFill"
+              src="test-file-stub"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="root"
+      >
+        <div
+          class="container content"
+        >
+          <img
+            alt="Purina Pro Plan"
+            height="120"
+            src="test-file-stub"
+            width="120"
+          />
+          <img
+            alt="Royal Canin"
+            height="120"
+            src="test-file-stub"
+            width="120"
+          />
+          <img
+            alt="West Paw"
+            height="120"
+            src="test-file-stub"
+            width="120"
+          />
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="testimonialProfile shadow-md"
+          >
+            <img
+              class="imgCover imgFill"
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="speechWrapper"
+          >
+            <p
+              class="speech shadow-md"
+            >
+              “Etiam facilisis ornare ligula, id feugiat ante laoreet eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed dui et mauris faucibus suscipit. Duis maximus purus id tincidunt dictum. Sed feugiat diam ut enim sollicitudin vestibulum.”
+            </p>
+            <p
+              class="clientName"
+            >
+              — Someone
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container root"
+      >
+        <h2>
+          Best sellers
+        </h2>
+        <div
+          class="root"
+        >
+          <a
+            class="prod"
+            href="/product/beautiful-scarf"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/beautiful-scarf.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              213.44
+            </p>
+            <p
+              class="prodName"
+            >
+              Beautiful Scarf
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/leash-toy"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/leash-toy.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              113.44
+            </p>
+            <p
+              class="prodName"
+            >
+              Leash Toy
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/orange-ball"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/orange-ball.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              100
+            </p>
+            <p
+              class="prodName"
+            >
+              Orange Ball
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/rope"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/rope.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              98
+            </p>
+            <p
+              class="prodName"
+            >
+              Rope
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/seahorse"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/seahorse.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              55.99
+            </p>
+            <p
+              class="prodName"
+            >
+              Seahorse
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <p
+          class="callUs"
+        >
+          Give us a call:
+           
+          <span
+            class="number"
+          >
+            +0 (000) 000-0000
+          </span>
+        </p>
+      </div>
+    </main>
+    <footer
+      class="root"
+    >
+      <div
+        class="footer container"
+      >
+        <a
+          class="logo"
+          href="/"
+        >
+          Pets
+        </a>
+        <nav
+          class="nav"
+        >
+          <ul>
+            <li>
+              <p>
+                Quick links
+              </p>
+              <a
+                href="/"
+              >
+                Adoption
+              </a>
+              <a
+                href="/"
+              >
+                Services
+              </a>
+              <a
+                href="/products/1"
+              >
+                Products
+              </a>
+            </li>
+            <li>
+              <p>
+                Follow us
+              </p>
+              <a
+                href="#"
+              >
+                Facebook
+              </a>
+              <a
+                href="#"
+              >
+                Instagram
+              </a>
+              <a
+                href="#"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <p>
+                Contact
+              </p>
+              <a
+                href="#"
+              >
+                +0 (000) 000-0000
+              </a>
+              <a
+                href="#"
+              >
+                someone@example.com
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

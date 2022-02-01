@@ -1,0 +1,59 @@
+@import "../mixins";
+
+.root {
+    h1 {
+        text-align: center;
+    }
+}
+
+.productDetails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+
+@include md {
+    .pic {
+        width: 40%;
+    }
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.price {
+    font-size: 1.4em;
+}
+
+.buyBtn {
+    display: block;
+    border: none;
+    outline: none;
+    width: 16rem;
+    padding: 2rem 1rem;
+    margin: auto;
+    background: rgb(245,99,119);
+    background: linear-gradient(262deg, rgba(245,99,119,1) 0%, rgba(231,123,64,1) 48%, rgba(218,155,28,1) 100%);
+    color: white;
+    font-family: var(--display-font);
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 1px 1px 9px 0px #f96209bf;
+}
+
+.buyBtn:hover {
+    background: rgb(230,70,124);
+    background: linear-gradient(262deg, rgba(230,70,124,1) 0%, rgba(224,61,47,1) 48%, rgba(228,139,50,1) 100%);
+}

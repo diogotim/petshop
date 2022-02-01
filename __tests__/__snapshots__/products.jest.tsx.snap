@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products renders products unchanged 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <div
+          class="header container"
+        >
+          <a
+            class="logo"
+            href="/"
+          >
+            Pets
+          </a>
+          <nav
+            class="nav"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/"
+                >
+                  Adoption
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/products/1"
+                >
+                  Products
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div
+          class="container root"
+        >
+          <h1>
+            Products
+          </h1>
+          <div
+            class="root"
+          >
+            <a
+              class="prod"
+              href="/product/beautiful-scarf"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/beautiful-scarf.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                213.44
+              </p>
+              <p
+                class="prodName"
+              >
+                Beautiful Scarf
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/leash-toy"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/leash-toy.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                113.44
+              </p>
+              <p
+                class="prodName"
+              >
+                Leash Toy
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/orange-ball"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/orange-ball.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                100
+              </p>
+              <p
+                class="prodName"
+              >
+                Orange Ball
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/rope"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/rope.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                98
+              </p>
+              <p
+                class="prodName"
+              >
+                Rope
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/seahorse"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/seahorse.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                55.99
+              </p>
+              <p
+                class="prodName"
+              >
+                Seahorse
+              </p>
+            </a>
+            <a
+              class="prod"
+              href="/product/small-leash"
+            >
+              <div
+                class="productImg"
+              >
+                <img
+                  class="imgCover imgFill"
+                  src="/small-leash.jpg"
+                />
+              </div>
+              <p
+                class="price"
+              >
+                $
+                59.99
+              </p>
+              <p
+                class="prodName"
+              >
+                Small Leash
+              </p>
+            </a>
+          </div>
+          <div
+            class="root"
+          >
+            <a
+              class="active"
+              href="/products/1"
+            >
+              1
+            </a>
+            <a
+              class=""
+              href="/products/2"
+            >
+              2
+            </a>
+            <a
+              class=""
+              href="/products/3"
+            >
+              3
+            </a>
+          </div>
+        </div>
+      </main>
+      <footer
+        class="root"
+      >
+        <div
+          class="footer container"
+        >
+          <a
+            class="logo"
+            href="/"
+          >
+            Pets
+          </a>
+          <nav
+            class="nav"
+          >
+            <ul>
+              <li>
+                <p>
+                  Quick links
+                </p>
+                <a
+                  href="/"
+                >
+                  Adoption
+                </a>
+                <a
+                  href="/"
+                >
+                  Services
+                </a>
+                <a
+                  href="/products/1"
+                >
+                  Products
+                </a>
+              </li>
+              <li>
+                <p>
+                  Follow us
+                </p>
+                <a
+                  href="#"
+                >
+                  Facebook
+                </a>
+                <a
+                  href="#"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="#"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <p>
+                  Contact
+                </p>
+                <a
+                  href="#"
+                >
+                  +0 (000) 000-0000
+                </a>
+                <a
+                  href="#"
+                >
+                  someone@example.com
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <div
+        class="header container"
+      >
+        <a
+          class="logo"
+          href="/"
+        >
+          Pets
+        </a>
+        <nav
+          class="nav"
+        >
+          <ul>
+            <li>
+              <a
+                href="/"
+              >
+                Adoption
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="/products/1"
+              >
+                Products
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div
+        class="container root"
+      >
+        <h1>
+          Products
+        </h1>
+        <div
+          class="root"
+        >
+          <a
+            class="prod"
+            href="/product/beautiful-scarf"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/beautiful-scarf.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              213.44
+            </p>
+            <p
+              class="prodName"
+            >
+              Beautiful Scarf
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/leash-toy"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/leash-toy.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              113.44
+            </p>
+            <p
+              class="prodName"
+            >
+              Leash Toy
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/orange-ball"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/orange-ball.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              100
+            </p>
+            <p
+              class="prodName"
+            >
+              Orange Ball
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/rope"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/rope.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              98
+            </p>
+            <p
+              class="prodName"
+            >
+              Rope
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/seahorse"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/seahorse.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              55.99
+            </p>
+            <p
+              class="prodName"
+            >
+              Seahorse
+            </p>
+          </a>
+          <a
+            class="prod"
+            href="/product/small-leash"
+          >
+            <div
+              class="productImg"
+            >
+              <img
+                class="imgCover imgFill"
+                src="/small-leash.jpg"
+              />
+            </div>
+            <p
+              class="price"
+            >
+              $
+              59.99
+            </p>
+            <p
+              class="prodName"
+            >
+              Small Leash
+            </p>
+          </a>
+        </div>
+        <div
+          class="root"
+        >
+          <a
+            class="active"
+            href="/products/1"
+          >
+            1
+          </a>
+          <a
+            class=""
+            href="/products/2"
+          >
+            2
+          </a>
+          <a
+            class=""
+            href="/products/3"
+          >
+            3
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="root"
+    >
+      <div
+        class="footer container"
+      >
+        <a
+          class="logo"
+          href="/"
+        >
+          Pets
+        </a>
+        <nav
+          class="nav"
+        >
+          <ul>
+            <li>
+              <p>
+                Quick links
+              </p>
+              <a
+                href="/"
+              >
+                Adoption
+              </a>
+              <a
+                href="/"
+              >
+                Services
+              </a>
+              <a
+                href="/products/1"
+              >
+                Products
+              </a>
+            </li>
+            <li>
+              <p>
+                Follow us
+              </p>
+              <a
+                href="#"
+              >
+                Facebook
+              </a>
+              <a
+                href="#"
+              >
+                Instagram
+              </a>
+              <a
+                href="#"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <p>
+                Contact
+              </p>
+              <a
+                href="#"
+              >
+                +0 (000) 000-0000
+              </a>
+              <a
+                href="#"
+              >
+                someone@example.com
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,9 @@
+.animalPortrait {
+    position: absolute;
+    z-index: 4;
+    overflow: hidden;
+    border: 6px solid var(--main);
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+}

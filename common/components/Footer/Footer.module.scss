@@ -1,0 +1,45 @@
+@import '../../styles/mixins';
+
+.root {
+    margin-top: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.logo {
+    margin: auto;
+}
+
+@include md {
+    .logo {
+        margin: 0;
+    }
+}
+
+.nav {
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8rem;
+    }
+
+    p {
+        font-weight: 900;
+        font-family: var(--font-display);
+    }
+
+    a {
+        display: block;
+    }
+
+    a:hover {
+        color: var(--main);
+    }
+}

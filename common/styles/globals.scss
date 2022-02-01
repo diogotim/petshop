@@ -1,0 +1,50 @@
+@import './design.scss';
+@import './utilities.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--regular-font);
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'kern';
+  scroll-behavior: smooth;
+  font-size: 1.8em;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--display-font);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.imgFill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.imgContain {
+  object-fit: contain;
+}
+
+.imgCover {
+  object-fit: cover;
+}

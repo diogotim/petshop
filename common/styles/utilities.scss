@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    max-width: var(--container-w);
+    margin: auto;
+}
+
+.shadow-md {
+    box-shadow: 2px 4px 19px 1px #1818188c;
+}
+
+.shadow-lg {
+    box-shadow: 0px 4px 17px 1px #1212129e;
+}
